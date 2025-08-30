@@ -1,20 +1,4 @@
-# requirements.txt for Global Live Flight Scraper Agent
-
-# Core async + HTTP
-requests>=2.31.0
-redis>=5.0.0
-
-# Database
-SQLAlchemy>=2.0.0
-psycopg2-binary>=2.9.9
-geoalchemy2>=0.14.0
-
-# Async + server framework
-pydantic>=2.0.0
-fastapi>=0.110.0
-uvicorn[standard]>=0.29.0
-
-# Optional (if you want to expand)
-# aiokafka>=0.10.0   # for Kafka streaming
-# folium>=0.15.0     # for map visualization
-# python-dotenv>=1.0.1 # for .env config
+streamlit
+sqlalchemy
+psycopg2-binary
+asyncpg
