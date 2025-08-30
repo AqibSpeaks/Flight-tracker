@@ -1,3 +1,7 @@
+from db import SessionLocal, init_db
+
+# Initialize DB
+init_db()
 """
 Global Live Flight Scraper Agent
 File: flight_agent.py
